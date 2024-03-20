@@ -11,7 +11,7 @@ COPY . .
 RUN echo "Instalando dependências..." && npm install && echo "Dependências instaladas com sucesso."
 
 # Construa a aplicação Next.js
-# RUN npm run build
+RUN npm run build
 
 # Exponha a porta 3000 para permitir conexões externas
 EXPOSE 3000
