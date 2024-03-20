@@ -29,5 +29,5 @@ O projeto é uma plataforma de locação de imóveis baseada na web 3, incorpora
 - **Criação de smart contracts ERC20 / ERC721, interação com front e hospedagem IPFS**
 - **Testes e deploy**
 
-Arquitetura: ![alt text](image-2.png)
-Prévia: ![alt text](image.png)
+Arquitetura: ![alt text](image.png)
+Prévia: ![alt text](image-1.png)
