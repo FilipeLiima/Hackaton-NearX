@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-import {Script, console2} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import {Script, console} from "forge-std/Script.sol";
+import {NFTHouse} from "../src/NFTHouse.sol";
 
-contract Local is Script {
-    Counter counter;
+contract NFTHomeScript is Script {
+    NFTHouse nftHouse;
 
     function setUp() public {}
 
@@ -14,8 +14,7 @@ contract Local is Script {
             0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
         );
 
-        counter = new Counter();
-        console2.log("Counter address: ", address(counter));
+        nftHouse = new NFTHouse(msg.sender);
 
         vm.stopBroadcast();
     }
