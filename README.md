@@ -30,6 +30,6 @@ O projeto é uma plataforma de locação de imóveis baseada na web 3, incorpora
 - **Testes e deploy de contratos** - Em breve
 - **Integrações de contrato com o front end** - Em breve
 
-  Arquitetura: ![alt text](image.png)
+  MODELAGEM DA ARQUITETURA : ![alt text](image.png)
 
-  Prévia: ![alt text](image-1.png)
+  PRÉVIA UI : ![alt text](image-1.png)
