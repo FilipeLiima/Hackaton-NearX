@@ -42,7 +42,7 @@ export function App() {
       <div className="grid grid-cols-2">
         <div className="bg-purple-900 p-4 flex justify-center items-center h-screen">
           <img
-            src="./src/assets/eth.jpg"
+            src="./src/assets/img.svg"
             alt="Description of image"
             className="max-w-full max-h-full rounded-lg"
             style={{ width: "80%", height: "auto" }}

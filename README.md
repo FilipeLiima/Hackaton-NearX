@@ -32,4 +32,4 @@ O projeto é uma plataforma de locação de imóveis baseada na web 3, incorpora
 
   MODELAGEM DA ARQUITETURA : ![alt text](image-5.png)
 
-  PRÉVIA UI : ![alt text](image-1.png)
+  PRÉVIA UI : ![alt text](image-6.png)
