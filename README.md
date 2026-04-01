@@ -1,35 +1,63 @@
-## Login Autentication:
+<h1 align="center">CryptoHome</h1>
 
-O projeto é uma plataforma de locação de imóveis baseada na web 3, incorporando contratos inteligentes para validar transações financeiras. Sua interface foi cuidadosamente projetada para autenticar usuários de maneira segura e eficiente, garantindo um processo de login rápido e seguro.
+<h3 align="center">Plataforma descentralizada de locação de imóveis · Web3 · Smart Contracts</h3>
 
-### Recursos Principais:
+<p align="center">
+  <code>TypeScript</code> &nbsp;•&nbsp;
+  <code>React</code> &nbsp;•&nbsp;
+  <code>Solidity</code> &nbsp;•&nbsp;
+  <code>MetaMask</code>
+</p>
 
-1. **Autenticação de Usuário:** A plataforma verifica a identidade dos usuários, garantindo o acesso seguro às contas.
+---
 
-2. **Interface Intuitiva:** Uma interface de usuário intuitiva e responsiva permite aos usuários realizar o login de maneira simples e direta, proporcionando uma experiência agradável.
+## 📌 Visão Geral
 
-3. **Descentralização Financeira:** A plataforma aproveita os benefícios da tecnologia blockchain para oferecer um ambiente financeiro descentralizado, eliminando intermediários e possibilitando transações diretas entre as partes envolvidas.
+CryptoHome é uma plataforma de locação de imóveis construída sobre a blockchain Ethereum.
+Usuários se autenticam via carteira cripto, interagem com um marketplace de imóveis e
+realizam transações financeiras validadas por contratos inteligentes — sem intermediários,
+com total rastreabilidade.
 
-4. **Contratos Inteligentes Transparentes:** Utiliza contratos inteligentes transparentes baseados em blockchain para garantir a segurança e a integridade das transações imobiliárias, eliminando a necessidade de confiar em terceiros.
+---
 
-5. **Proteção de Dados Criptografados:** Os dados dos usuários são protegidos por criptografia robusta, garantindo a privacidade e a segurança das informações pessoais e financeiras dos usuários em toda a plataforma.
+## ✨ Funcionalidades
 
-6. **Auditoria de Transações Imutáveis:** Todas as transações na plataforma são registradas de forma imutável no blockchain, proporcionando uma trilha de auditoria transparente e verificável para garantir a integridade e a confiabilidade do sistema.
+- **Autenticação Web3** — login seguro via MetaMask, sem senha ou dado sensível exposto
+- **Marketplace de imóveis** — listagem e navegação por propriedades disponíveis para locação
+- **Contratos inteligentes** — transações validadas on-chain, sem necessidade de confiar em terceiros
+- **Auditoria imutável** — todas as operações registradas permanentemente na blockchain
+- **Proteção de dados** — informações criptografadas, privacidade garantida por design
 
-### Tecnologias Utilizadas:
+---
 
-- **Frontend:** TypeScript, Tailwind CSS, Shadn-UI (React.js)
-- **SmartContracts:** Solidity
+## 🛠️ Tecnologias
 
-### Roadmap:
+| Camada | Tecnologia |
+|--------|-----------|
+| Frontend | TypeScript · React · Tailwind CSS · Shadcn-UI |
+| Smart Contracts | Solidity · ERC-20 · ERC-721 |
+| Wallet | MetaMask |
+| Storage | IPFS |
 
-- **Criação de front end - Login + Marketplace** - Implementado
-- **Integração com metamask wallet** - Implementado
-- **Criação de página de marketplace e roteamento** - Implementado
-- **Criação de smart contracts ERC20 / ERC721, interação com front e hospedagem IPFS** - Trabalhando nisso
-- **Testes e deploy de contratos** - Implementado
-- **Integrações de contrato com o front end** - Em breve
+---
 
-  MODELAGEM DA ARQUITETURA : ![alt text](image-5.png)
+## 🗺️ Roadmap
 
-  PRÉVIA UI : ![alt text](image-6.png)
+- [x] Frontend — Login + Marketplace
+- [x] Integração com MetaMask
+- [x] Página de marketplace e roteamento
+- [x] Testes e deploy dos contratos
+- [ ] Smart contracts ERC-20 / ERC-721 + integração IPFS *(em andamento)*
+- [ ] Integração dos contratos com o frontend *(em breve)*
+
+---
+
+## 🏗️ Arquitetura
+
+![Modelagem de Arquitetura](image-5.png)
+
+---
+
+## 🖥️ Preview da Interface
+
+![UI Preview](image-6.png)
